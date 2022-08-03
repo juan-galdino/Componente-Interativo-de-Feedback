@@ -1,0 +1,17 @@
+@use '../abstracts/' as *;
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  background-color: $background-color;
+}
+
+h1 {
+  color: $title-color;
+}
+
+p {
+  color: $text-color ;
+}
