@@ -1,3 +1,14 @@
+import { useState } from 'react'
+
 export function RatingBtn(props) {
-  return <div className="container__ratingBtn">{props.children} </div>
+
+  return (
+    <input
+      type="radio"
+      className={'container__ratingBtn'}
+      value={props.children}
+      name="rate"
+      required
+    />
+  )
 }
