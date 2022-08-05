@@ -1,13 +1,19 @@
 import './scss/App.scss'
-import { AppRoutes } from './AppRoutes'
-
+import { Rating } from './Components/Rating.jsx'
+import { Thanks } from './Components/Thanks.jsx'
+import { useState } from 'react'
+import { RatingContext } from './Contexts/RatingContext'
 
 function App() {
-  console.log('renderizou')
-
+  const [showThanks, setShowThanks] = useState(false)
+  const [rate, setRate] = useState('')
 
   return (
-    <AppRoutes />
+    <div>
+      <RatingContext.Provider value={{ setShowThanks, rate, setRate }}>
+        {showThanks ? <Thanks /> : <Rating />}
+      </RatingContext.Provider>
+    </div>
   )
 }
 

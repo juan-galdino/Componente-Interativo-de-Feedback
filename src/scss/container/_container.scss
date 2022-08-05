@@ -95,6 +95,17 @@
       transform: scale(0.99);
     }
   }
+
+  &__error {
+    color: #fff;
+  }
+
+  &__result {
+    padding: 0.5rem 1rem;
+    color: $primary-color;
+    background-color: $circle-color;
+    border-radius: 3.125rem;
+  }
 }
 
 .centralized {
