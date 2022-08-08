@@ -1,0 +1,18 @@
+@use '../abstracts/' as *;
+
+.attribution{
+  padding-top: 1rem;
+  max-width: 23.4375rem;
+  margin-inline: auto;
+  text-align: center;
+  color: $secondary-color;
+
+  a {
+    color: $primary-color;
+    transition: all ease-in-out 0.2s;
+  }
+
+  a:hover {
+    text-shadow: 2px 2px 5px $primary-color;
+  }
+}
