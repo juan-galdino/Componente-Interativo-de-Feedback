@@ -15,7 +15,7 @@ function App() {
           {showThanks ? <Thanks /> : <Rating />}
         </RatingContext.Provider>
       </main>
-      <footer className='atribuittion'><small>Challenge by <a href="https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI">Front End Mentor</a>. Coded by <a href="https://github.com/juan-galdino/comecando-com-react">Juan Galdino</a>.</small></footer>
+      <footer className='attribution'><small>Challenge by <a href="https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI" target="_blank">Front End Mentor</a>. Coded by <a href="https://github.com/juan-galdino/comecando-com-react" target="_blank">Juan Galdino</a>.</small></footer>
     </>
   )
 }
