@@ -1,0 +1,9 @@
+@use './colors' as *;
+
+%circle {
+  display: flex;
+  width: clamp(2.5rem, 0.2rem + 5vw, 3rem);
+  height: clamp(2.5rem, 0.2rem + 5vw, 3rem);
+  background-color: $circle-color;
+  border-radius: 50%;
+}
