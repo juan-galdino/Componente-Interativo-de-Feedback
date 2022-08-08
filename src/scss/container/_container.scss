@@ -48,16 +48,11 @@
     &:hover {
       cursor: pointer;
       color: #fff;
-      background-color: $hover-circle-color;
-      transform: scale(1.02);
-      box-shadow: 1px 3px 13px -3px $hover-circle-color;
-    }
-
-    &:active {
-      color: #fff;
       background-color: $primary-color;
+      transform: scale(1.05);
       box-shadow: 1px 3px 13px -3px $primary-color;
     }
+
   }
 
   &__ratingBtn:before {
@@ -68,8 +63,8 @@
   &__ratingBtn:checked {
     @extend .container__ratingBtn;
     color: #fff;
-    background-color: $hover-circle-color;
-    box-shadow: 1px 3px 13px -3px $hover-circle-color;
+    background-color: $secondary-color;
+    box-shadow: 1px 3px 13px -3px $secondary-color;
   }
 
   &__submitButton {
@@ -80,19 +75,17 @@
     cursor: pointer;
     outline: none;
     border: none;
-    filter: brightness(0.85);
     background-color: $primary-color;
     transition: all ease-in-out 0.2s;
 
     &:hover, &:focus{
-      transform: scale(1.01);
-      filter: brightness(1);
-    }
-
-    &:active {
+      transform: scale(0.99);
       background-color: #fff;
       color: $primary-color;
-      transform: scale(0.99);
+    }
+    
+    &:active {
+      transform: scale(1.02);
     }
   }
 
