@@ -87,10 +87,18 @@
     &:active {
       transform: scale(1.02);
     }
+
+    &:active ~ .container__error {
+      transition: all ease 0.2s;
+      padding: 0 0.125rem;
+      text-decoration: underline;
+      color: #fff ;
+    }
   }
 
   &__error {
-    color: #fff;
+    color: $secondary-color;
+    
   }
 
   &__result {
