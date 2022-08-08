@@ -9,11 +9,14 @@ function App() {
   const [rate, setRate] = useState('')
 
   return (
-    <div>
-      <RatingContext.Provider value={{ setShowThanks, rate, setRate }}>
-        {showThanks ? <Thanks /> : <Rating />}
-      </RatingContext.Provider>
-    </div>
+    <>
+      <main>
+        <RatingContext.Provider value={{ setShowThanks, rate, setRate }}>
+          {showThanks ? <Thanks /> : <Rating />}
+        </RatingContext.Provider>
+      </main>
+      <footer className='atribuittion'><small>Challenge by <a href="https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI">Front End Mentor</a>. Coded by <a href="https://github.com/juan-galdino/comecando-com-react">Juan Galdino</a>.</small></footer>
+    </>
   )
 }
 
