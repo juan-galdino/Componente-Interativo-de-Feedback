@@ -28,7 +28,7 @@ export function Rating() {
         setRate(data.formRate)
         goToThanks()
       })}>
-        <article className="container__buttons">
+        <fieldset className="container__buttons">
           {inputValues.map((values, key) => {
             return (
               <label aria-label={`Option ${values}`} key={key}>
@@ -41,7 +41,7 @@ export function Rating() {
               </label>
             )
           })}
-        </article>
+        </fieldset>
         <button className="container__submitButton">SUBMIT</button>
         <p className="container__error">{errors.formRate?.message}</p>
       </form>
