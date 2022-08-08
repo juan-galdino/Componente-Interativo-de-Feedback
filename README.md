@@ -24,7 +24,7 @@
 
 :small_blue_diamond: [Casos de Uso](#casos-de-uso)
 
-:small_blue_diamond: [Como rodar a aplicação](#dependencias-e-libs-utilizadas-books)
+:small_blue_diamond: [Dependencias e libs utilizadas](#dependencias-e-libs-utilizadas-books)
 
 :small_blue_diamond: [O que aprendi](#o-que-aprendi-pencil)
 
@@ -47,13 +47,13 @@
 
 > Link do deploy da aplicação. https://reactinteractivecomponent.netlify.app/
 
-## GIF da aplicação em funcionamento
+## GIF da aplicação em funcionamento :iphone: :computer:
 
-<p><img src="./src/assets/mobile.gif"/></p>
+<p><img src="./src/assets/mobile.gif" width="250"/></p>
 
 ## Pré-requisitos
 
-❕ É preciso ter ao menos [Node](https://nodejs.org/en/download/) instalado para rodar o projeto localmente na máquina.
+É preciso ter ao menos [Node](https://nodejs.org/en/download/) instalado para rodar o projeto localmente na máquina.
 
 ## Como rodar a aplicação :arrow_forward:
 
