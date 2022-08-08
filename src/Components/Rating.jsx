@@ -31,13 +31,15 @@ export function Rating() {
         <article className="container__buttons">
           {inputValues.map((values, key) => {
             return (
-              <input
-                type="radio"
-                className={'container__ratingBtn'}
-                value={values}
-                key={key}
-                {...register('formRate', { required: 'Rate our support on a scale of 1 to 5 to submit.' })}
-              />)
+              <label aria-label={`Option ${values}`} key={key}>
+                <input
+                  className={'container__ratingBtn'}
+                  type="radio"
+                  value={values}
+                  {...register('formRate', { required: 'Rate our support on a scale of 1 to 5 to submit.' })}
+                />
+              </label>
+            )
           })}
         </article>
         <button className="container__submitButton">SUBMIT</button>
