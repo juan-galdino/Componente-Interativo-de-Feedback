@@ -1,4 +1,4 @@
-<h1>Componente interativo de Feedback com React - Front End Mentor Challenge</h1>
+<h1>Componente Interativo de Feedback com React - Front End Mentor Challenge</h1>
 
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=react&message=library&color=blue&style=for-the-badge&logo=REACT"/>
